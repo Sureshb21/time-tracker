@@ -59,7 +59,11 @@
             </plugins>
         </pluginManagement>
     </build>
-
+<distributionManagement>
+    <repository><id>bvcps-maven1</id>
+     <url>http://13.232.16.226:8082/ui/native/bvcps-maven1/</url>
+      </repository>
+   </distributionManagement>
     <reporting>
         <plugins>
             <plugin>
