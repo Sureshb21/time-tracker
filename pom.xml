@@ -60,10 +60,17 @@
         </pluginManagement>
     </build>
 <distributionManagement>
-    <repository><id>bvcps-maven1</id>
-     <url>http://13.232.16.226:8082/ui/native/bvcps-maven1/</url>
-      </repository>
-   </distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-41-253-releases</name>
+        <url>http://13.232.16.226:8081/artifactory/bvcps-maven1</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-41-253-snapshots</name>
+        <url>http://13.232.16.226:8081/artifactory/bvcps-maven1</url>
+    </snapshotRepository>
+</distributionManagement>
     <reporting>
         <plugins>
             <plugin>
